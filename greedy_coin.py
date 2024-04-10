@@ -23,7 +23,7 @@ def greedy_coin(change):
     # coins = [500, 200, 100, 50, 20, 10, 5, 2, 1]
     coin_lookup = {0.25: "quarter", 0.10: "dime", 0.05: "nickel", 0.01: "penny"}
     # coin_lookup = {500: "Five hundred", 200: "Two Hundred", 100:"One Hundred", 50:"Fifty",
-                #    20:"Twenty", 10: "Ten", 5:"Five", 2:"Two", 1:"One"}
+    #    20:"Twenty", 10: "Ten", 5:"Five", 2:"Two", 1:"One"}
     coin_dict = {}
     for coin in coins:
         coin_dict[coin] = 0
