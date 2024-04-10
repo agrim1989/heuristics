@@ -14,7 +14,7 @@ install:
 
 test:
 	#ignores the virus of pandas warnings
-	python -m pytest -vv -p no:warnings test_*.py tests/
+	python -m pytest -vv -p no:warnings test_*.py 
 
 format:	
 	black .

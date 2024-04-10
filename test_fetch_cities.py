@@ -1,4 +1,4 @@
-from fetch_cities_lat_long import main, my_cities, create_cities_dataframe
+from fetch_citys_lat_lng import main, my_cities, create_cities_dataframe
 import pytest
 
 # create a list of cities
